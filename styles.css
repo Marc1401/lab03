@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    /*font-family: serif;
+    color:black;*/
+
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.main-header {
+    /*removes the small space at the top*/
+    display: flex;
+    flex-direction: column;
+
+
+    /*align elements */
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    background-image: url("cp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 320px;
+
+
+
+
+
+
+
+}
+
+.main-nav {
+
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(216, 171, 171);
+    opacity: 0.5;
+
+
+
+}
+
+.a-nav li{
+
+    display: inline;
+    color: black;
+    padding: 0 5%;
+
+
+
+}
+
+
+/*Let's personalize the remainining stuff from objective*/
+
+
+.pers {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-top: 20px solid skyblue;
+
+
+}
+
+/*the following class will help leaving space between each section of the resume*/
+
+
+.divider {
+    border-top: 5px solid skyblue;
+    padding-top: 10px;
+  }
+
+/*the following part helps designing the table*/
+table{
+
+    border-collapse: collapse;
+    /*table td, table th { border: 1px solid black; padding: 10px; }
+    table tr { background-color: #bdc3c7; }
+    /*table tr { background-color: #ecf0f1; }*/
+}
+
+td, th {
+    border: 1px solid black; padding: 10px;
+}
+
+.kyrie p {
+    background-color: rgb(47, 169, 218);
+    height: 100px;
+    background: solid skyblue;
+    border:0;
+    margin:0;
+}
